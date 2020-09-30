@@ -128,7 +128,7 @@ Improvements:
 - The `Equal` matcher matches byte slices more performantly.
 - Improved how `MatchError` matches error strings.
 - `MatchXML` ignores the order of xml node attributes.
-- Improve support for XUnit style golang tests. ([#254](https://github.com/onsi/gomega/issues/254))
+- Improve support for XUnit style golang tests. ([#254](https://github.com/brookskindle/gomega/issues/254))
 
 Bug Fixes:
 

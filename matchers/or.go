@@ -3,9 +3,9 @@ package matchers
 import (
 	"fmt"
 
-	"github.com/onsi/gomega/format"
-	"github.com/onsi/gomega/internal/oraclematcher"
-	"github.com/onsi/gomega/types"
+	"github.com/brookskindle/gomega/format"
+	"github.com/brookskindle/gomega/internal/oraclematcher"
+	"github.com/brookskindle/gomega/types"
 )
 
 type OrMatcher struct {

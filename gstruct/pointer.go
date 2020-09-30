@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/onsi/gomega/format"
-	"github.com/onsi/gomega/types"
+	"github.com/brookskindle/gomega/format"
+	"github.com/brookskindle/gomega/types"
 )
 
 //PointTo applies the given matcher to the value pointed to by actual. It fails if the pointer is

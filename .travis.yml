@@ -11,7 +11,7 @@ env:
 install:
   - go get -v ./...
   - go build ./...
-  - go get github.com/onsi/ginkgo
-  - go install github.com/onsi/ginkgo/ginkgo
+  - go get github.com/brookskindle/ginkgo
+  - go install github.com/brookskindle/ginkgo/ginkgo
 
 script: make test

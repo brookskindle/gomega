@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/onsi/gomega/format"
+	"github.com/brookskindle/gomega/format"
 )
 
 type BeTemporallyMatcher struct {

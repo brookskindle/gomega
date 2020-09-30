@@ -3,10 +3,10 @@ package bipartitegraph_test
 import (
 	"reflect"
 
-	. "github.com/onsi/gomega/matchers/support/goraph/bipartitegraph"
+	. "github.com/brookskindle/gomega/matchers/support/goraph/bipartitegraph"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/brookskindle/ginkgo"
+	. "github.com/brookskindle/gomega"
 )
 
 var _ = Describe("Bipartitegraph", func() {

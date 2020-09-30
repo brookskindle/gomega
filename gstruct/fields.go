@@ -9,9 +9,9 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/onsi/gomega/format"
-	errorsutil "github.com/onsi/gomega/gstruct/errors"
-	"github.com/onsi/gomega/types"
+	"github.com/brookskindle/gomega/format"
+	errorsutil "github.com/brookskindle/gomega/gstruct/errors"
+	"github.com/brookskindle/gomega/types"
 )
 
 //MatchAllFields succeeds if every field of a struct matches the field matcher associated with

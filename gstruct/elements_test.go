@@ -1,9 +1,9 @@
 package gstruct_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	. "github.com/onsi/gomega/gstruct"
+	. "github.com/brookskindle/ginkgo"
+	. "github.com/brookskindle/gomega"
+	. "github.com/brookskindle/gomega/gstruct"
 )
 
 var _ = Describe("Slice", func() {

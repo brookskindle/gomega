@@ -1,10 +1,10 @@
 package matchers_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	. "github.com/onsi/gomega/matchers"
-	"github.com/onsi/gomega/types"
+	. "github.com/brookskindle/ginkgo"
+	. "github.com/brookskindle/gomega"
+	. "github.com/brookskindle/gomega/matchers"
+	"github.com/brookskindle/gomega/types"
 )
 
 // sample data

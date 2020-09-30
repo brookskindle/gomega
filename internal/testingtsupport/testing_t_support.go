@@ -5,7 +5,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/onsi/gomega/types"
+	"github.com/brookskindle/gomega/types"
 )
 
 var StackTracePruneRE = regexp.MustCompile(`\/gomega\/|\/ginkgo\/|\/pkg\/testing\/|\/pkg\/runtime\/`)

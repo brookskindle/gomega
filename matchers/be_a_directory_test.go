@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	. "github.com/onsi/gomega/matchers"
+	. "github.com/brookskindle/ginkgo"
+	. "github.com/brookskindle/gomega"
+	. "github.com/brookskindle/gomega/matchers"
 )
 
 var _ = Describe("BeADirectoryMatcher", func() {

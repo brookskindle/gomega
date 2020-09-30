@@ -13,9 +13,9 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/onsi/gomega"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/types"
+	"github.com/brookskindle/gomega"
+	. "github.com/brookskindle/gomega"
+	"github.com/brookskindle/gomega/types"
 )
 
 type GHTTPWithGomega struct {

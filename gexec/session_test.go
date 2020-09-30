@@ -9,11 +9,11 @@ import (
 	"syscall"
 	"time"
 
-	. "github.com/onsi/gomega/gbytes"
-	. "github.com/onsi/gomega/gexec"
+	. "github.com/brookskindle/gomega/gbytes"
+	. "github.com/brookskindle/gomega/gexec"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/brookskindle/ginkgo"
+	. "github.com/brookskindle/gomega"
 )
 
 var _ = Describe("Session", func() {

@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"runtime/debug"
 
-	"github.com/onsi/gomega/format"
-	errorsutil "github.com/onsi/gomega/gstruct/errors"
-	"github.com/onsi/gomega/types"
+	"github.com/brookskindle/gomega/format"
+	errorsutil "github.com/brookskindle/gomega/gstruct/errors"
+	"github.com/brookskindle/gomega/types"
 )
 
 //MatchAllElements succeeds if every element of a slice matches the element matcher it maps to

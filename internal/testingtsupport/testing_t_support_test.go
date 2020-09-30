@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/onsi/gomega/internal/testingtsupport"
+	"github.com/brookskindle/gomega/internal/testingtsupport"
 
-	. "github.com/onsi/gomega"
+	. "github.com/brookskindle/gomega"
 
 	"fmt"
 	"testing"

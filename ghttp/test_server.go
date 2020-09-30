@@ -120,7 +120,7 @@ import (
 	"strings"
 	"sync"
 
-	. "github.com/onsi/gomega"
+	. "github.com/brookskindle/gomega"
 )
 
 func new() *Server {

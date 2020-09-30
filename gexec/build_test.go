@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
-	"github.com/onsi/gomega/gexec"
+	. "github.com/brookskindle/ginkgo"
+	. "github.com/brookskindle/gomega"
+	"github.com/brookskindle/gomega/gexec"
 )
 
 var packagePath = "./_fixture/firefly"
@@ -63,7 +63,7 @@ var _ = Describe(".BuildWithEnvironment", func() {
 
 var _ = Describe(".BuildIn", func() {
 	const (
-		target = "github.com/onsi/gomega/gexec/_fixture/firefly/"
+		target = "github.com/brookskindle/gomega/gexec/_fixture/firefly/"
 	)
 
 	var (

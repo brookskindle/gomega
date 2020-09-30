@@ -4,12 +4,12 @@ import (
 	"io"
 	"time"
 
-	. "github.com/onsi/gomega/gbytes"
+	. "github.com/brookskindle/gomega/gbytes"
 
 	"bytes"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/brookskindle/ginkgo"
+	. "github.com/brookskindle/gomega"
 )
 
 type SlowReader struct {

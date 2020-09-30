@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/onsi/gomega/format"
+	"github.com/brookskindle/gomega/format"
 	"golang.org/x/net/html/charset"
 )
 

@@ -3,8 +3,8 @@ package matchers
 import (
 	"fmt"
 
-	"github.com/onsi/gomega/format"
-	"github.com/onsi/gomega/matchers/support/goraph/bipartitegraph"
+	"github.com/brookskindle/gomega/format"
+	"github.com/brookskindle/gomega/matchers/support/goraph/bipartitegraph"
 )
 
 type ContainElementsMatcher struct {

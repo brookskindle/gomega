@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/onsi/gomega/format"
+	"github.com/brookskindle/gomega/format"
 )
 
 type HaveHTTPStatusMatcher struct {

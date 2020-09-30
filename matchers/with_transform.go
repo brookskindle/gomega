@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/onsi/gomega/internal/oraclematcher"
-	"github.com/onsi/gomega/types"
+	"github.com/brookskindle/gomega/internal/oraclematcher"
+	"github.com/brookskindle/gomega/types"
 )
 
 type WithTransformMatcher struct {
